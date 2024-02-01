@@ -13,10 +13,6 @@
     </include>
 
     <include>
-      <uri>model://turtlebot3_room</uri>
-    </include>
-
-    <include>
       <pose>0 -1.7 0.01 0.0 0.0 0.0</pose>
       <uri>model://turtlebot3_burger_0</uri>
     </include>
