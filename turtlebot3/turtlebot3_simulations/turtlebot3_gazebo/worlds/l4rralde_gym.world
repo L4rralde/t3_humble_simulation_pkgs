@@ -4,8 +4,16 @@
 
   <world name="default">
 
+    <scene>
+      <sky>
+        <clouds>
+          <speed>0</speed>
+        </clouds>
+      </sky>
+    </scene>
+
     <include>
-      <uri>model://ground_plane</uri>
+      <uri>model://plane</uri>
     </include>
 
     <!-- Global light source -->
@@ -14,26 +22,19 @@
     </include>
 
     <include>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>-5 -5 0 0 0 0</pose>
       <uri>model://robotics_gym</uri>
     </include>
 
     <include>
-      <pose>0 -1.7 0.01 0.0 0.0 0.0</pose>
+      <pose>0 3 0.01 0.0 0.0 0.0</pose>
       <uri>model://turtlebot3_burger_0</uri>
     </include>
     
     <include>
-      <pose>0 -2.2 0.01 0.0 0.0 0.0</pose>
+      <pose>0 2.5 0.01 0.0 0.0 0.0</pose>
       <uri>model://turtlebot3_burger_1</uri>
     </include>
-
-    <!--
-    <include>
-      <pose>0 0 0 0 0 0</pose>
-      <uri>model://cardboard_box</uri>
-    </include>
-    -->
 
     <!--
     <include>
