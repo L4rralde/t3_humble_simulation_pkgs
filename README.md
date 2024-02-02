@@ -1,29 +1,28 @@
-# README #
+# My simulation environment for the turtlebot3.
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Hey there, I developed a simple project (aka rosject) in The Construct Sim.
 
-### What is this repository for? ###
+## How to use
+- rosject link: https://app.theconstructsim.com/l/5f5faa8d/
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+The project is already build, so just open a terminal and type:
+```bash
+source ~/ros_ws/install/setup.bash
+ros2 launch turtlebot3_gazebo turtlebot3_tc_world_two_robots.launch.py
+```
 
-### How do I get set up? ###
+A new window should open with gazebo, wait some seconds until it finish loading, and search for the turtlebots (sorry for that :c)
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Test on it
+Consider running one (or both) of the following commands.
+```bash
+ros2 topic pub --once /tb3_0/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}"
+ros2 topic pub --once /tb3_1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}"
+```
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
 
-### Who do I talk to? ###
+Consider that this is my first rosject, so my directions might not be the best.
 
-* Repo owner or admin
-* Other community or team contact
+Best regards,
+L4rralde
