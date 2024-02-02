@@ -19,6 +19,7 @@ Consider running one (or both) of the following commands.
 ros2 topic pub --once /tb3_0/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}"
 ros2 topic pub --once /tb3_1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}"
 ```
+![Diseño sin título](https://github.com/L4rralde/t3_humble_simulation_pkgs/assets/33332433/e83e6960-6f84-42a4-aa0b-35d39657946a)
 
 
 
