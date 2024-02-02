@@ -27,12 +27,12 @@
     </include>
 
     <include>
-      <pose>0 3 0.01 0.0 0.0 0.0</pose>
+      <pose>-0.25 3.5 0.01 0.0 0.0 0.0</pose>
       <uri>model://turtlebot3_burger_0</uri>
     </include>
     
     <include>
-      <pose>0 2.5 0.01 0.0 0.0 0.0</pose>
+      <pose>-0.25 2.75 0.01 0.0 0.0 0.0</pose>
       <uri>model://turtlebot3_burger_1</uri>
     </include>
 
