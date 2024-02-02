@@ -33,7 +33,7 @@ TURTLEBOT3_MODEL = "burger"
 
 def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
-    world_file_name = 'turtlebot3_tc_two_robots.world'
+    world_file_name = 'l4rralde_gym.world'
     world = os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'worlds', world_file_name)
     robot_desc_path = os.path.join(get_package_share_directory("turtlebot3_description"), "urdf", "turtlebot3_burger.urdf")
 
